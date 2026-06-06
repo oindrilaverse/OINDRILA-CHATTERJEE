@@ -207,3 +207,4 @@ export function ContactFooter() {
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(' ');
 }
+export default Journey;
