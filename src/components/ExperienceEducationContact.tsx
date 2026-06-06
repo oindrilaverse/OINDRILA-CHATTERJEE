@@ -21,28 +21,41 @@ export function Journey() {
           <div className="relative border-l border-white/[0.03] ml-4 md:ml-0 pl-16 md:pl-24 space-y-32">
             {/* Experience */}
             <div className="relative">
-               <div className="absolute -left-[70px] md:-left-[102px] top-2 w-2 h-2 rounded-full bg-accent-cyan" />
-               <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-6 gap-2">
-                  <h3 className="text-3xl font-bold tracking-tight">Secretariat – Data Support</h3>
-                  <span className="text-accent-cyan font-mono text-[10px] uppercase tracking-[0.3em]">KIIT Model UN</span>
-               </div>
-               <p className="text-white/40 text-lg font-light leading-relaxed max-w-2xl">
-                  Optimized and managed complex datasets for 500+ global participants using advanced data-driven workflows to streamline large-scale operations and strategic event logistics.
-               </p>
+                <div className="absolute -left-[70px] md:-left-[102px] top-2 w-2 h-2 rounded-full bg-accent-cyan" />
+                <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-6 gap-2">
+                  <h3 className="text-3xl font-bold tracking-tight">AI Web Developer Intern</h3>
+                  <span className="text-accent-cyan font-mono text-[10px] uppercase tracking-[0.3em]">InAmigos Foundation</span>
+                </div>
+                <ul className="list-disc list-inside text-white/40 text-lg font-light leading-relaxed max-w-2xl space-y-2">
+                  <li>Audited and reviewed the organization’s existing website and user experience.</li>
+                  <li>Identified usability, design, and performance bottlenecks and proposed AI‑enhanced solutions.</li>
+                  <li>Implemented AI‑driven features (prompt‑engineered content generation, intelligent search) using Next.js, TypeScript, and Gemini APIs.</li>
+                  <li>Collaborated with cross‑functional teams to integrate backend services and improve data flow.</li>
+                </ul>
             </div>
+
+            <div className="relative mt-12">
+              <div className="absolute -left-[70px] md:-left-[102px] top-2 w-2 h-2 rounded-full bg-white/10" />
+              <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-6 gap-2">
+                <h3 className="text-3xl font-bold tracking-tight">Operations & Data Intern (IT & Compliance) Dec 2025 – Feb 2026</h3>
+                <span className="text-accent-cyan font-mono text-[10px] uppercase tracking-[0.3em]">Orange Securitas Private Limited</span>
+              </div>
+              <ul className="list-disc list-inside text-white/40 text-lg font-light leading-relaxed max-w-2xl space-y-2">
+                <li>Managed compliance datasets, improving data accessibility by 25%</li>
+                <li>Streamlined workflows, reducing manual errors by 20%</li>
+                <li>Worked with SAP systems supporting payroll and staffing processes</li>
+              </ul>
+            </div>
+
 
             {/* Education */}
             <div className="relative">
                <div className="absolute -left-[70px] md:-left-[102px] top-2 w-2 h-2 rounded-full bg-white/10" />
                <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-6 gap-2">
-                  <h3 className="text-3xl font-bold tracking-tight flex items-center gap-4">
-                     Bachelor of Computer Applications
-                  </h3>
-                  <span className="text-white/30 font-mono text-[10px] uppercase tracking-[0.3em]">2023 – 2026</span>
-               </div>
-               <p className="text-white/40 text-lg font-light mb-8 italic">KIIT (Kalinga Institute of Industrial Technology)</p>
-               <div className="inline-block px-5 py-2 rounded-full bg-white/[0.02] border border-white/[0.05] text-accent-cyan text-[10px] font-mono tracking-widest uppercase">
-                  GPA: 7.08
+                    <h3 className="text-3xl font-bold tracking-tight flex items-center gap-4">Bachelor of Computer Applications (BCA)</h3>
+            <span className="text-white/30 font-mono text-[10px] uppercase tracking-[0.3em]">Graduated: 2026</span>
+            <p className="text-white/40 text-lg font-light mb-8 italic">KIIT University</p>
+            <p className="text-white/40 text-lg font-light mb-8 italic">Convocation Pending</p>
                </div>
             </div>
           </div>

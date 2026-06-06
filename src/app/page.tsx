@@ -1,9 +1,14 @@
+"use client";
+
 import SmoothScroll from "@/components/SmoothScroll";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import { About, Skills } from "@/components/AboutAndSkills";
+import { ProfessionalSummary, TechnicalSkills } from "@/components/AboutAndSkills";
+import Journey from "@/components/ExperienceEducationContact"; // Experience & Education
 import { FeaturedProjects } from "@/components/Projects";
-import { Journey, CreativeCollaborations, Certifications, ContactFooter } from "@/components/ExperienceEducationContact";
+import TechStack from "@/components/TechStack";
+import Certifications from "@/components/Certifications";
+import ContactFooter from "@/components/ContactFooter";
 
 export default function Home() {
   return (
@@ -11,10 +16,10 @@ export default function Home() {
       <main className="relative bg-black text-white selection:bg-accent-cyan selection:text-black">
         <Navbar />
         <Hero />
-        <About />
-        <Skills />
+        <ProfessionalSummary />
+        <TechnicalSkills />
+        <TechStack />
         <Journey />
-        <CreativeCollaborations />
         <FeaturedProjects />
         <Certifications />
         <ContactFooter />

@@ -8,14 +8,13 @@ import { cn } from "@/lib/utils";
 const featuredProjects = [
   {
     id: 1,
-    title: "Resume Analyzer AI",
-    tagline: "Intelligent ATS Optimization Engine",
-    description: "An advanced system evaluating resumes for ATS optimization, keyword alignment, and recruiter readability using modern LLM architectures.",
-    features: ["ATS Score Analysis", "Resume Parsing", "AI Suggestions", "Skill Gap Detection", "Job Description Matching", "Recruiter Optimization"],
-    roadmap: "Planned evolution into a scalable AI-powered SaaS platform with Payment Portals, User Accounts, and Dashboard Analytics.",
-    tags: ["Generative AI", "LLMs", "Next.js", "Prompt Engineering"],
-    link: "https://oindrilaverse.github.io/HireReady.AI/analyzer",
-    github: "https://github.com/oindrilaverse/HireReady.AI",
+    title: "HireReady.AI",
+    tagline: "AI-Powered SaaS Resume Analyzer",
+    description: "HireReady.AI is a production-ready AI-powered SaaS platform that analyzes resumes, provides ATS optimization reports, identifies skill gaps, and matches candidates with relevant job opportunities.",
+    features: ["AI Resume Analysis","ATS Optimization","Job Matching","Authentication","PostgreSQL Database","Resume Parsing","SaaS Architecture","Cloud Deployment"],
+    tags: ["Next.js","TypeScript","Tailwind CSS v4","Framer Motion","Zustand","Supabase Auth","Node.js","Express.js","Google Gemini API","PostgreSQL","Prisma","Vercel","Render"],
+    link: "https://hire-ready-ai-v2.vercel.app/",
+    github: "https://github.com/oindrilaverse/HireReady.ai-V2",
     isFlagship: true
   },
   {

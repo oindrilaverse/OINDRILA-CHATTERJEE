@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Terminal, Database, Cpu, MessageSquare, Globe, Layout, Code2, Layers, Lightbulb, Zap, Users, Brain, Heart, Search } from "lucide-react";
+import { Terminal, Database, Cpu, MessageSquare, Globe, Layout, Code2, Layers, Lightbulb, Zap, Users, Brain, Search } from "lucide-react";
 
-export function About() {
+export function ProfessionalSummary() {
   return (
     <section id="about" className="bg-black">
       <div className="container-premium text-center">
@@ -19,7 +19,7 @@ export function About() {
           whileInView={{ opacity: 1, y: 0 }}
           className="heading-lg mb-16"
         >
-          Building intelligent systems <br /> 
+          Building intelligent systems <br />
           <span className="opacity-30 font-light">driven by data and refined by AI.</span>
         </motion.h2>
         <motion.div
@@ -28,10 +28,10 @@ export function About() {
           className="text-lg md:text-xl text-white/40 leading-relaxed font-light max-w-2xl mx-auto space-y-10"
         >
           <p>
-            I am a Data Analyst and AI Specialist focused on architecting intelligent, scalable systems. My expertise lies in discovers hidden patterns within complex datasets and leveraging Generative AI to design personalized, high-performance solutions.
+            I am a BCA graduate from KIIT University who enjoys building production-ready AI-powered web applications. My focus is on creating scalable full-stack products using modern technologies including Next.js, TypeScript, Node.js, PostgreSQL, Supabase, Prisma, and Generative AI APIs.
           </p>
           <p>
-            By bridging the gap between raw analytical power and intuitive, human-centered design, I build AI-powered applications that define new possibilities in the modern tech landscape.
+            I have experience building and deploying SaaS applications with authentication, databases, cloud deployment, and AI integrations. I enjoy solving real-world problems through software and continuously learning new technologies through hands-on projects.
           </p>
         </motion.div>
       </div>
@@ -59,7 +59,7 @@ const softSkills = [
   { name: "Collaboration", icon: <Users size={18} /> },
 ];
 
-export function Skills() {
+export function TechnicalSkills() {
   return (
     <section id="skills" className="bg-black">
       <div className="container-premium">
