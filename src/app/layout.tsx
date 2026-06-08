@@ -14,7 +14,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "Oindrila Chatterjee | Full Stack Developer & AI SaaS Builder",
-  description: "BCA Graduate building AI-powered SaaS applications using Next.js, TypeScript, Node.js, PostgreSQL, Supabase, Prisma, and Generative AI.",
+  description: "BCA Graduate building AI-powered SaaS applications using Next.js, TypeScript, Node.js, PostgreSQL, Supabase, Prisma, and Generative AI APIs.",
   keywords: ["Oindrila Chatterjee", "Data Analyst", "AI Enthusiast", "Creative Developer", "Next.js", "Three.js", "Framer Motion"],
 };
 

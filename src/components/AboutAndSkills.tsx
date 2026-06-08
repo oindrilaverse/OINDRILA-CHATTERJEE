@@ -28,10 +28,16 @@ export function ProfessionalSummary() {
           className="text-lg md:text-xl text-white/40 leading-relaxed font-light max-w-2xl mx-auto space-y-10"
         >
           <p>
-            I am a BCA graduate from KIIT University who enjoys building production-ready AI-powered web applications. My focus is on creating scalable full-stack products using modern technologies including Next.js, TypeScript, Node.js, PostgreSQL, Supabase, Prisma, and Generative AI APIs.
+            I am a BCA graduate from KIIT University who enjoys building production-ready AI-powered web applications.
           </p>
           <p>
-            I have experience building and deploying SaaS applications with authentication, databases, cloud deployment, and AI integrations. I enjoy solving real-world problems through software and continuously learning new technologies through hands-on projects.
+            My experience includes developing full-stack SaaS products with authentication, databases, AI integrations, cloud deployment, and modern frontend architectures.
+          </p>
+          <p>
+            I work primarily with Next.js, TypeScript, Node.js, PostgreSQL, Supabase, Prisma, and Generative AI APIs to create scalable and user-focused applications.
+          </p>
+          <p>
+            I enjoy solving real-world problems through software and continuously improving my skills by building and shipping products.
           </p>
         </motion.div>
       </div>

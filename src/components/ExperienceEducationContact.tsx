@@ -50,12 +50,14 @@ export function Journey() {
 
             {/* Education */}
             <div className="relative">
-               <div className="absolute -left-[70px] md:-left-[102px] top-2 w-2 h-2 rounded-full bg-white/10" />
-               <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-6 gap-2">
-                    <h3 className="text-3xl font-bold tracking-tight flex items-center gap-4">Bachelor of Computer Applications (BCA)</h3>
-            <span className="text-white/30 font-mono text-[10px] uppercase tracking-[0.3em]">Graduated: 2026</span>
-            <p className="text-white/40 text-lg font-light mb-8 italic">KIIT University</p>
-            <p className="text-white/40 text-lg font-light mb-8 italic">Convocation Pending</p>
+               <div className="absolute -left-[70px] md:-left-[102px] top-2 w-2 h-2 rounded-full bg-accent-cyan" />
+               <div className="flex flex-col mb-6 gap-2">
+                  <div className="flex flex-col md:flex-row md:items-baseline justify-between gap-2">
+                    <h3 className="text-3xl font-bold tracking-tight">Bachelor of Computer Applications (BCA)</h3>
+                    <span className="text-accent-cyan font-mono text-[10px] uppercase tracking-[0.3em]">Graduated: 2026</span>
+                  </div>
+                  <p className="text-white/60 text-lg font-light mb-2">KIIT University</p>
+                  <span className="text-white/40 font-mono text-[10px] uppercase tracking-[0.1em] border border-white/10 px-3 py-1 rounded-full w-fit">Convocation Pending</span>
                </div>
             </div>
           </div>
