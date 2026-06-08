@@ -192,7 +192,11 @@ export function ContactFooter() {
             ))}
           </div>
 
-          <a href="#" className="inline-flex items-center gap-4 text-white/30 hover:text-white transition-colors text-[10px] font-mono uppercase tracking-[0.5em]">
+          <a
+            href="/Oindrilla_Chatterjee_Resume.pdf"
+            download="Oindrilla_Chatterjee_Resume.pdf"
+            className="inline-flex items-center gap-4 text-white/30 hover:text-white transition-colors text-[10px] font-mono uppercase tracking-[0.5em]"
+          >
              <Download size={16} /> Download Full Résumé
           </a>
         </motion.div>
