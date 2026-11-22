@@ -56,7 +56,7 @@ export function Journey() {
                         <span className="text-accent-cyan font-mono text-[10px] uppercase tracking-[0.3em]">Graduated: 2026</span>
                     </div>
                     <p className="text-white/60 text-lg font-light mb-2">KIIT University</p>
-                    <span className="text-white/40 font-mono text-[10px] uppercase tracking-[0.1em] border border-white/10 px-3 py-1 rounded-full w-fit">Convocation Pending</span>
+                    
                 </div>
                 <div className="relative mt-6">
                     <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-6 gap-2">
@@ -188,7 +188,7 @@ export function ContactFooter() {
               { icon: <Phone size={22} />, label: "Call", href: "tel:+919007098009", color: "hover:text-accent-blue" },
               { icon: <LinkedInIcon size={22} />, label: "LinkedIn", href: "https://www.linkedin.com/in/oindrila-chatterjee-4258a5276", color: "hover:text-accent-cyan" },
               { icon: <GitHubIcon size={22} />, label: "GitHub", href: "https://github.com/oindrilaverse", color: "hover:text-white" }].map((link, idx) => (
-              <a key={idx} href={link.href} target="_blank" className="group flex flex-col items-center gap-5">
+              <a key={idx} href={link.href} target={link.href.startsWith('http') ? "_blank" : "_self"} className="group flex flex-col items-center gap-5">
                 <div className={classNames("p-7 rounded-full border border-white/[0.03] bg-white/[0.01] transition-all group-hover:border-white/10 group-hover:bg-white/[0.03]", link.color)}>
                   {link.icon}
                 </div>

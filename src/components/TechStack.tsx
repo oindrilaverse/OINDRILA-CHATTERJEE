@@ -7,37 +7,37 @@ export default function TechStack() {
   const categories = [
     {
       title: "Frontend",
-      icon: <Layout className="text-accent-cyan" size={20} />,
-      skills: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Zustand"]
+      icon: <Layout className="text-accent-cyan" size={20} />, 
+      skills: ["HTML", "CSS", "JavaScript"]
     },
     {
       title: "Backend",
-      icon: <Server className="text-accent-blue" size={20} />,
-      skills: ["Node.js", "Express.js", "TypeScript"]
+      icon: <Server className="text-accent-blue" size={20} />, 
+      skills: ["Node.js", "Express.js"]
     },
     {
       title: "Database",
-      icon: <Database className="text-purple-400" size={20} />,
-      skills: ["PostgreSQL", "Prisma ORM", "Supabase"]
+      icon: <Database className="text-purple-400" size={20} />, 
+      skills: ["Oracle", "MySQL"]
     },
     {
       title: "Authentication",
-      icon: <ShieldCheck className="text-green-400" size={20} />,
+      icon: <ShieldCheck className="text-green-400" size={20} />, 
       skills: ["Supabase Auth"]
     },
     {
       title: "AI & Intelligence",
-      icon: <Brain className="text-amber-400" size={20} />,
+      icon: <Brain className="text-amber-400" size={20} />, 
       skills: ["Google Gemini API"]
     },
     {
       title: "Infrastructure",
-      icon: <Rocket className="text-rose-400" size={20} />,
+      icon: <Rocket className="text-rose-400" size={20} />, 
       skills: ["Vercel", "Render"]
     },
     {
       title: "Tools & Workflow",
-      icon: <Cpu className="text-teal-400" size={20} />,
+      icon: <Cpu className="text-teal-400" size={20} />, 
       skills: ["Git", "GitHub", "VS Code"]
     }
   ];
@@ -76,9 +76,7 @@ export default function TechStack() {
             >
               <div className="flex items-center justify-between pb-4 border-b border-white/[0.03]">
                 <h3 className="text-lg font-bold tracking-tight text-white/90">{cat.title}</h3>
-                <div className="opacity-70 group-hover:opacity-100 transition-opacity">
-                  {cat.icon}
-                </div>
+                <div className="opacity-70 group-hover:opacity-100 transition-opacity">{cat.icon}</div>
               </div>
               <div className="flex flex-wrap gap-2">
                 {cat.skills.map((skill) => (

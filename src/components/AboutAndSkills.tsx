@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Terminal, Database, Cpu, MessageSquare, Globe, Layout, Code2, Layers, Lightbulb, Zap, Users, Brain, Search } from "lucide-react";
+import { Terminal, Database, Cpu, MessageSquare, Globe, Lightbulb, Zap, Users, Search } from "lucide-react";
 
 export function ProfessionalSummary() {
   return (
@@ -12,33 +12,30 @@ export function ProfessionalSummary() {
           whileInView={{ opacity: 1 }}
           className="text-accent-cyan font-mono text-[10px] uppercase tracking-[0.5em] mb-12 block"
         >
-          Perspective
+          Professional Summary
         </motion.span>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           className="heading-lg mb-16"
         >
-          Building intelligent systems <br />
-          <span className="opacity-30 font-light">driven by data and refined by AI.</span>
+          MCA candidate at Techno Main Salt Lake with a strong BCA foundation and hands‑on experience building scalable, AI‑powered applications.
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="text-lg md:text-xl text-white/40 leading-relaxed font-light max-w-2xl mx-auto space-y-10"
+          className="text-lg md:text-xl text-white/40 leading-relaxed font-light max-w-2xl mx-auto space-y-6"
         >
-          <p>
-            I am a BCA graduate from KIIT University who enjoys building production-ready AI-powered web applications.
-          </p>
-          <p>
-            My experience includes developing full-stack SaaS products with authentication, databases, AI integrations, cloud deployment, and modern frontend architectures.
-          </p>
-          <p>
-            I work primarily with Next.js, TypeScript, Node.js, PostgreSQL, Supabase, Prisma, and Generative AI APIs to create scalable and user-focused applications.
-          </p>
-          <p>
-            I enjoy solving real-world problems through software and continuously improving my skills by building and shipping products.
-          </p>
+          <p>Phone: +91 9007098009</p>
+          <p>Highly proficient in Python and Oracle PL/SQL for robust backend and database operations. Adept at developing production‑ready solutions, managing complex relational databases, and applying a strong focus on object‑oriented programming and algorithmic problem‑solving.</p>
+          <p>Technical Skills:</p>
+          <ul className="list-disc list-inside ml-4">
+            <li>Languages: Python, PL/SQL, SQL</li>
+            <li>Tools & Platforms: Git, GitHub, VS Code, Vercel</li>
+            <li>Databases: Oracle, MySQL</li>
+            <li>Concepts: OOP, Data Structures & Algorithms, DBMS, REST APIs, Responsive Web Design</li>
+            <li>AI & Generative: Google Gemini API, Prompt Engineering, LLM Integration, Generative AI</li>
+          </ul>
         </motion.div>
       </div>
     </section>
@@ -47,13 +44,8 @@ export function ProfessionalSummary() {
 
 const hardSkills = [
   { name: "Python", icon: <Terminal size={20} /> },
-  { name: "SQL", icon: <Database size={20} /> },
-  { name: "Data Analysis", icon: <Cpu size={20} /> },
-  { name: "Generative AI", icon: <MessageSquare size={20} /> },
-  { name: "LLMs / Prompts", icon: <Brain size={20} /> },
-  { name: "Next.js", icon: <Layout size={20} /> },
-  { name: "React", icon: <Code2 size={20} /> },
-  { name: "SaaS Systems", icon: <Layers size={20} /> },
+  { name: "PL/SQL", icon: <Database size={20} /> },
+  { name: "SQL", icon: <Cpu size={20} /> },
 ];
 
 const softSkills = [
@@ -77,7 +69,9 @@ export function TechnicalSkills() {
           >
             Core Arsenal
           </motion.h2>
-          <p className="text-muted uppercase tracking-[0.4em] text-[10px]">Technical mastery & Strategic capabilities</p>
+          <p className="text-muted uppercase tracking-[0.4em] text-[10px]">
+            Technical mastery & Strategic capabilities
+          </p>
         </div>
 
         {/* Hard Skills */}
@@ -93,7 +87,9 @@ export function TechnicalSkills() {
               <div className="text-accent-cyan opacity-60 group-hover:opacity-100 transition-opacity">
                 {skill.icon}
               </div>
-              <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-white/40 group-hover:text-white/80 transition-colors">{skill.name}</span>
+              <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-white/40 group-hover:text-white/80 transition-colors">
+                {skill.name}
+              </span>
             </motion.div>
           ))}
         </div>
@@ -101,7 +97,9 @@ export function TechnicalSkills() {
         {/* Soft Skills Section */}
         <div className="w-full">
           <div className="text-center mb-16">
-            <h3 className="text-sm font-mono tracking-[0.5em] uppercase text-white/20">Transferable Soft Skills</h3>
+            <h3 className="text-sm font-mono tracking-[0.5em] uppercase text-white/20">
+              Transferable Soft Skills
+            </h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {softSkills.map((skill, idx) => (
