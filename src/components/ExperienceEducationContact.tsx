@@ -56,6 +56,14 @@ export function Journey() {
             <span className="text-white/30 font-mono text-[10px] uppercase tracking-[0.3em]">Graduated: 2026</span>
             <p className="text-white/40 text-lg font-light mb-8 italic">KIIT University</p>
             <p className="text-white/40 text-lg font-light mb-8 italic">Convocation Pending</p>
+            <div className="relative mt-6">
+                <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-6 gap-2">
+                    <h3 className="text-3xl font-bold tracking-tight">Master of Computer Applications (MCA)</h3>
+                    <span className="text-white/30 font-mono text-[10px] uppercase tracking-[0.3em]">2026 – 2028</span>
+                </div>
+                <p className="text-white/40 text-lg font-light mb-4 italic">Techno Main Salt Lake, Kolkata</p>
+                <p className="text-white/40 text-lg font-light mb-4 italic">WBJECA 2026 — General Merit Rank: 797</p>
+            </div>
                </div>
             </div>
           </div>
