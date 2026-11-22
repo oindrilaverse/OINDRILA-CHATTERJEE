@@ -27,7 +27,7 @@ export function ProfessionalSummary() {
           className="text-lg md:text-xl text-white/40 leading-relaxed font-light max-w-2xl mx-auto space-y-6"
         >
           <p>Phone: +91 9007098009</p>
-          <p>Highly proficient in Python and Oracle PL/SQL for robust backend and database operations. Adept at developing production‑ready solutions, managing complex relational databases, and applying a strong focus on object‑oriented programming and algorithmic problem‑solving.</p>
+          <p>Highly proficient in Python and Oracle PL/SQL for robust database operations. Adept at developing production‑ready solutions, managing complex relational databases, and applying a strong focus on object‑oriented programming and algorithmic problem‑solving.</p>
           <p>Technical Skills:</p>
           <ul className="list-disc list-inside ml-4">
             <li>Languages: Python, PL/SQL, SQL</li>
