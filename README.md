@@ -33,11 +33,13 @@ Designed with a clean and responsive UI to provide recruiters and collaborators 
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Design
-- GitHub Pages / Vercel
+- **Frontend:** Next.js, TypeScript, Tailwind CSS, Framer Motion, Zustand
+- **Backend:** Node.js, Express.js, TypeScript
+- **Database:** PostgreSQL, Prisma ORM, Supabase
+- **Authentication:** Supabase Auth
+- **AI:** Google Gemini API
+- **Infrastructure:** Vercel, Render
+- **Tools:** Git, GitHub, VS Code
 
 ---
 
@@ -56,9 +58,5 @@ Python-based data preprocessing and performance trend analysis project.
 
 ## 📸 Screenshots
 
-:<img width="952" height="518" alt="Screenshot 2026-05-08 204312" src="https://github.com/user-attachments/assets/b4feac2a-2724-49d0-a54b-1adbc3f53ac9" />
-
-
-```md
 ![Homepage Screenshot](images/homepage.png)
 ![Projects Section](images/projects.png)

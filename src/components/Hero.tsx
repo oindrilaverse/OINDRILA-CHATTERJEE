@@ -66,7 +66,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 1.2 }}
           >
-            <h2 className="text-sm md:text-base font-light tracking-[0.5em] text-accent-cyan uppercase mb-12 opacity-80">Full Stack Developer | AI-Powered SaaS Builder | Next.js, TypeScript, Node.js, PostgreSQL</h2>
+            <h2 className="text-sm md:text-base font-light tracking-[0.5em] text-accent-cyan uppercase mb-12 opacity-80">Full Stack Developer | AI-Powered SaaS Builder | Next.js, TypeScript, Node.js & PostgreSQL</h2>
             <p className="text-xl md:text-2xl text-white/40 max-w-2xl mx-auto mb-16 font-light italic leading-relaxed">
               “Architecting intelligent systems and AI-powered workflows with a human-centered approach.”
             </p>
