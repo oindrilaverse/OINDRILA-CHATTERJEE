@@ -19,7 +19,7 @@ export function ProfessionalSummary() {
           whileInView={{ opacity: 1, y: 0 }}
           className="heading-lg mb-16"
         >
-          MCA candidate at Techno Main Salt Lake with a strong BCA foundation and hands‑on experience building scalable, AI‑powered applications.
+          MCA candidate at Techno Main Salt Lake with a strong BCA foundation from KIIT University( 2023-2026 )and hands‑on experience building scalable, AI‑powered applications.
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
